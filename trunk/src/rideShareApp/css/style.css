@@ -2,14 +2,13 @@ body {
 }
 
 .yui-u {
-	abackground: #ccf;
-	background: #fff;
+	abackground: #fff;
 	margin: 0;
 	padding: 0;
 }
 
 .yui-g {
-	background: #fcc;
+	abackground: #fcc;
 	margin: 0;
 	padding: 0;
 }
@@ -19,12 +18,19 @@ body {
 
 #ft {
 	background: #fcc;
+	margin: 0.6em 1em;
+	padding: 0.4em 0.6em;
 }
 
-#step1 {
+#step1, #step2 {
 	border: 2px solid #8DC73F;
 	border-width: 0 2px;
 	padding: 8px 6px;
+	width: 331px;
+}
+
+#step2 {
+	border-width: 0 2px 2px;
 }
 
 #step1Details {
@@ -32,9 +38,10 @@ body {
 	border-width: 0 2px 2px;
 	margin: 0;
 	padding: 8px 6px;
+	width: 331px;
 }
 
-#step1 h1 {
+#step1 h1, #step2 h1 {
 	text-align: right;
 	font-family: Tahoma;
 	color: #56AB40;
