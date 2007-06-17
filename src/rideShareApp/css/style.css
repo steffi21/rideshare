@@ -1,9 +1,17 @@
+body {
+}
+
 .yui-u {
 	abackground: #ccf;
+	background: #fff;
+	margin: 0;
+	padding: 0;
 }
 
 .yui-g {
-	abackground: #ccf;
+	background: #fcc;
+	margin: 0;
+	padding: 0;
 }
 
 #hd {
@@ -38,4 +46,27 @@
 	border-bottom: 2px solid #8DC73F;
 }
 
+#selectEventContainer select {
+	border: 1px solid #8DC73F;
+	background: #F0F7E6;
+	width: 100%;
+	padding: 2px;
+}
+
+#selectEventContainer label {
+	margin: 0 0 0.4em;
+	padding: 0;
+	font-size: 1.6em;
+	color: #55AA40;
+	font-family: Tahoma;
+	display: block;
+}
+
+#mapContainer {
+	border: 2px solid #8DC73F;
+	margin: 0;
+	padding: 0;
+	width: 378px;
+	height: 368px;
+}
 
