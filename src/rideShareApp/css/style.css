@@ -1,19 +1,41 @@
-.yui-u
-{
-    border: 1px solid red;
+.yui-u {
+	abackground: #ccf;
 }
 
-.yui-g
-{
-    border: 1px solid blue;
+.yui-g {
+	abackground: #ccf;
 }
 
-#hd
-{
-    border: 1px solid green;
+#hd {
 }
 
-#ft
-{
-    border: 1px solid green;
+#ft {
+	background: #fcc;
 }
+
+#step1 {
+	border: 2px solid #8DC73F;
+	border-width: 0 2px;
+	padding: 8px 6px;
+}
+
+#step1Details {
+	border: 2px solid #8DC73F;
+	border-width: 0 2px 2px;
+	margin: 0;
+	padding: 8px 6px;
+}
+
+#step1 h1 {
+	text-align: right;
+	font-family: Tahoma;
+	color: #56AB40;
+	font-weight: bold;
+	font-style: italic;
+	background: #E6F2D5;
+	margin: -8px -8px 8px;
+	padding: 4px 8px;
+	border-bottom: 2px solid #8DC73F;
+}
+
+
