@@ -1,6 +1,6 @@
 
 body {
-	background: #8DC73F;
+	background: #56AA40;
 }
 
 #doc2 {
@@ -8,7 +8,8 @@ body {
 	padding: 0 0 1.4em;
 	background: #fff;
 	width: 760px;
-	border: 2px solid #8DC73F;
+	border: 1px solid #8DC73F;
+	border-width: 0 4px 4px;
 }
 
 .yui-u {
