@@ -1,8 +1,17 @@
+
 body {
+	background: #8DC73F;
+}
+
+#doc2 {
+	margin: 0 auto;
+	padding: 0 0 1.4em;
+	background: #fff;
+	width: 760px;
+	border: 2px solid #8DC73F;
 }
 
 .yui-u {
-	abackground: #fff;
 	margin: 0;
 	padding: 0;
 }
@@ -17,7 +26,6 @@ body {
 }
 
 #ft {
-	background: #fcc;
 	margin: 0.6em 1em;
 	padding: 0.4em 0.6em;
 }
@@ -25,8 +33,9 @@ body {
 #step1, #step2 {
 	border: 2px solid #8DC73F;
 	border-width: 0 2px;
+	margin: 0 0 0 12px;
 	padding: 8px 6px;
-	width: 470px;
+	width: 458px;
 }
 
 #step2 {
@@ -36,9 +45,9 @@ body {
 #step1Details {
 	border: 2px solid #8DC73F;
 	border-width: 0 2px 2px;
-	margin: 0;
+	margin: 0 0 0 12px;
 	padding: 8px 6px;
-	width: 470px;
+	width: 458px;
 }
 
 #step1 h1, #step2 h1 {
