@@ -59,10 +59,10 @@
                         <label for="txtPostCode">Post Code:</label>
                         <input id="txtPostCode" type="text"/>
                    </div>
-                   <!--<div class="row">
-                        <label for="hiddenLatLan">or Plot your location on the map</label>
+                   <div class="row">
+                   <!--     <label for="hiddenLatLan">or Plot your location on the map</label> -->
                         <input id="hiddenLatLan" type="hidden"/>
-                   </div> -->
+                   </div>
                    
                    <h3>Your Contact Details</h3>
                    

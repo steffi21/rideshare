@@ -20,7 +20,7 @@ YAHOO.rideShare.map = {
 
     // Add a slider zoom control
     map.addZoomLong();
-    
+    map.disableKeyControls();
     map.geoCodeAddress("l9 8df, england")
 
     // Set map type to either of: YAHOO_MAP_SAT YAHOO_MAP_HYB YAHOO_MAP_REG
