@@ -1,0 +1,33 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="rideShare.master.cs" Inherits="rideShare" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>rideShare - </title>
+		<link rel="StyleSheet" href="/yui/reset-fonts-grids/reset-fonts-grids.css" type="text/css" />
+		<link rel="StyleSheet" href="/css/web.css" media="screen" type="text/css" />
+		<link rel="StyleSheet" href="/css/print.css" media="print" type="text/css" />
+		
+		<!-- Basic YUI Stuff -->
+		<script type="text/javascript" src="/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+		<script type="text/javascript" src="/yui/container/container_core.js"></script> 
+</head>
+
+<body>
+    <form id="rideShareForm" runat="server">
+    <div id="doc2" class="yui-t7">
+    		<div id="hd">
+    		    <img src="/images/rideshare.gif" alt="rideShare" />
+    		</div>
+    		<div id="bd">
+		            <asp:contentplaceholder id="mainContent" runat="server" >
+		            </asp:contentplaceholder>
+			</div>
+        <div id="ft">
+            &copy; rideShare 2007
+        </div>
+    </div>
+    </form>
+</body>
+</html>

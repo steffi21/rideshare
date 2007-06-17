@@ -2,9 +2,7 @@
 
 <configuration>
   
-  <appSettings>
-    <add key="applicationIDYAHOOMaps" value="QVxQVvjIkY1B8_QgvsjKwyz3YFkBQ8eyF0M"/>
-  </appSettings>
+    <appSettings/>
     <connectionStrings/>
   
     <system.web>
@@ -33,6 +31,5 @@
             <error statusCode="404" redirect="FileNotFound.htm" />
         </customErrors>
         -->
-      
     </system.web>
 </configuration>
