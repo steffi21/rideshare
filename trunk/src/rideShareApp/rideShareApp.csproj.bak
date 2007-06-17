@@ -40,36 +40,21 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Default.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="rideShare.cs" />
-    <Compile Include="rideShare.master.cs">
-      <DependentUpon>rideShare.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="DataFeed.ashx.cs">
+      <DependentUpon>DataFeed.ashx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="controls\map.ascx.cs">
-      <DependentUpon>map.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="controls\map.ascx.designer.cs">
-      <DependentUpon>map.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="controls\userInterface.ascx.cs">
-      <DependentUpon>userInterface.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="controls\userInterface.ascx.designer.cs">
-      <DependentUpon>userInterface.ascx</DependentUpon>
-    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\rideShareBackEnd\rideShareBackEnd.csproj">
@@ -78,15 +63,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\layout.css" />
-    <Content Include="javascript\map.js" />
-    <Content Include="rideShare.master" />
-    <Content Include="Default.aspx" />
-    <Content Include="controls\map.ascx" />
-    <Content Include="controls\userInterface.ascx" />
-    <Content Include="css\print.css" />
-    <Content Include="css\style.css" />
-    <Content Include="css\web.css" />
+    <Content Include="DataFeed.ashx" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
@@ -103,7 +80,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>2373</DevelopmentServerPort>
+          <DevelopmentServerPort>51559</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

@@ -1,16 +1,20 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="rideShareApp._Default" %>
+<%@ Page Language="C#" MasterPageFile="~/rideShare.master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" %>
+<%@ Register TagPrefix="rideshare" TagName="ui" Src="~/controls/userInterface.ascx" %>
+<%@ Register TagPrefix="rideshare" TagName="map" Src="~/controls/map.ascx" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" >
-<head runat="server">
-    <title>Untitled Page</title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
+<asp:Content ID="defaultContent" ContentPlaceHolderID="mainContent" runat="server">
+    <div id="tabContainer">
+        <div class="yui-g">
+            <div class="yui-u first tab1"> 
+                <rideshare:ui id="uiControl" runat="server" uiStep="1"></rideshare:ui>
+            </div>
+            <div class="yui-u">
+                <rideshare:map id="map" runat="server" />
+            </div>
+        </div>
+        <div class="yui-g tab2">
+            <rideshare:ui id="uiControlStep2" runat="server" uiStep="2" Visible="true"></rideshare:ui>
+        </div>
     </div>
-    </form>
-</body>
-</html>
+    
+</asp:Content>
